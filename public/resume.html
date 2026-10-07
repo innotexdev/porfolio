@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Innocent Akuh — Resume | Full-Stack Software Developer</title>
+  <meta name="description" content="Resume of Innocent Akuh, Full-Stack Software Developer (Node.js, NestJS, React, Next.js, TypeScript, C#, .NET)." />
+  <style>
+    :root {
+      --ink: #1a1d26;
+      --muted: #4b5563;
+      --line: #d7dce4;
+      --accent: #3730a3;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background: #eef0f4;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    .toolbar {
+      position: sticky; top: 0; z-index: 10;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px; padding: 12px 20px;
+      background: #111322; color: #fff;
+      font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+    }
+    .toolbar a { color: #c7d2fe; }
+    .toolbar button {
+      font: 600 13px Arial, Helvetica, sans-serif;
+      background: #4f46e5; color: #fff; border: 0; border-radius: 8px;
+      padding: 9px 16px; cursor: pointer;
+    }
+    .toolbar button:hover { background: #4338ca; }
+    .page {
+      max-width: 820px; margin: 28px auto 56px;
+      background: #fff; padding: 52px 56px;
+      box-shadow: 0 12px 40px rgba(15, 20, 40, 0.12);
+    }
+    header { text-align: center; border-bottom: 2px solid var(--ink); padding-bottom: 16px; }
+    h1 { font-size: 30px; letter-spacing: 2px; text-transform: uppercase; }
+    .headline { margin-top: 6px; font-size: 14.5px; color: var(--muted); }
+    .contact { margin-top: 8px; font-size: 13.5px; }
+    .contact a { color: var(--accent); }
+    section { margin-top: 22px; }
+    h2 {
+      font-size: 14px; letter-spacing: 2px; text-transform: uppercase;
+      border-bottom: 1px solid var(--line); padding-bottom: 5px; margin-bottom: 10px;
+    }
+    p.summary { font-size: 14px; }
+    .skills { list-style: none; font-size: 13.5px; }
+    .skills li { margin-bottom: 5px; }
+    .skills strong { display: inline-block; min-width: 170px; }
+    .job-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+    .job-head h3 { font-size: 14.5px; }
+    .job-head .date { font-size: 13px; color: var(--muted); white-space: nowrap; }
+    .company { font-size: 13.5px; font-style: italic; color: var(--muted); margin-bottom: 4px; }
+    ul.bullets { margin-left: 20px; font-size: 13.5px; }
+    ul.bullets li { margin-bottom: 4px; }
+    .job { margin-bottom: 16px; }
+    .job:last-child { margin-bottom: 0; }
+    .proj { margin-bottom: 10px; font-size: 13.5px; }
+    .proj strong { font-size: 14px; }
+    .edu-line { font-size: 13.5px; }
+    footer { margin-top: 26px; border-top: 1px solid var(--line); padding-top: 10px; font-size: 12px; color: var(--muted); text-align: center; }
+    @media (max-width: 640px) {
+      .page { padding: 32px 24px; margin: 0; box-shadow: none; }
+      .job-head { flex-direction: column; gap: 0; }
+      .skills strong { min-width: 0; display: inline; }
+    }
+    @media print {
+      body { background: #fff; }
+      .toolbar { display: none; }
+      .page { margin: 0; max-width: none; box-shadow: none; padding: 0; }
+      @page { size: A4; margin: 16mm 14mm; }
+      a { text-decoration: none; color: var(--ink); }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <span><a href="/">← Back to portfolio</a> &nbsp;·&nbsp; To save as PDF: press <strong>Print</strong> → destination “Save as PDF”.</span>
+    <button type="button" onclick="window.print()">Print / Save as PDF</button>
+  </div>
+
+  <main class="page">
+    <header>
+      <h1>Innocent Akuh</h1>
+      <p class="headline">Full-Stack Software Developer &nbsp;|&nbsp; Node.js &bull; NestJS &bull; React.js &bull; Next.js &bull; TypeScript &bull; C# &bull; .NET</p>
+      <p class="contact">
+        Abuja, Nigeria &nbsp;|&nbsp; +234 816 865 3156 &nbsp;|&nbsp;
+        <a href="mailto:akuhinnocent2016@gmail.com">akuhinnocent2016@gmail.com</a><br />
+        <a href="https://YOUR_LINKEDIN_URL">LinkedIn</a> &nbsp;|&nbsp;
+        <a href="https://YOUR_GITHUB_URL">GitHub</a> &nbsp;|&nbsp;
+        <a href="https://YOUR_GITLAB_URL">GitLab</a>
+      </p>
+    </header>
+
+    <section aria-label="Professional summary">
+      <h2>Professional Summary</h2>
+      <p class="summary">
+        Full-Stack Software Developer with end-to-end experience designing and building secure, scalable web
+        platforms using Node.js, NestJS, React.js, Next.js, TypeScript, and modern .NET technologies (C#,
+        ASP.NET Core). Comfortable across the full stack — frontend, APIs, business logic, databases,
+        authentication, integrations, and deployment — with production experience spanning fintech, real
+        estate, and enterprise CMS platforms. Currently building enterprise applications and CMS-driven
+        platforms at Vega IT.
+      </p>
+    </section>
+
+    <section aria-label="Technical skills">
+      <h2>Technical Skills</h2>
+      <ul class="skills">
+        <li><strong>Languages &amp; Frameworks:</strong> JavaScript, TypeScript, React.js, Next.js, Node.js, NestJS, C#, .NET, ASP.NET Core</li>
+        <li><strong>Databases &amp; CMS:</strong> PostgreSQL, MongoDB, Mongoose, MySQL, Redis, Umbraco CMS</li>
+        <li><strong>APIs &amp; Architecture:</strong> RESTful APIs, GraphQL (Apollo), JWT, Clean Architecture</li>
+        <li><strong>Tools &amp; Practices:</strong> Docker, GitHub Actions, Git, CI/CD</li>
+      </ul>
+    </section>
+
+    <section aria-label="Professional experience">
+      <h2>Professional Experience</h2>
+
+      <div class="job">
+        <div class="job-head">
+          <h3>Software Engineer</h3>
+          <span class="date">Oct 2025 – Present</span>
+        </div>
+        <p class="company">Vega IT</p>
+        <ul class="bullets">
+          <li>Architect scalable enterprise applications and CMS-driven platforms using ASP.NET Core and Umbraco CMS.</li>
+          <li>Engineer secure, high-performance APIs and optimize content delivery pipelines.</li>
+          <li>Apply Clean Architecture principles to ensure long-term code maintainability.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <h3>Full Stack Developer</h3>
+          <span class="date">2023 – 2025</span>
+        </div>
+        <p class="company">Deep Technology's Limited</p>
+        <ul class="bullets">
+          <li>Led end-to-end development of production-grade applications, including NIAS Feed Compendium and KYCInsight.</li>
+          <li>Architected high-traffic Internship Portal and the Pnuel Real Estate platform.</li>
+          <li>Developed robust backend systems using Node.js and GraphQL, reducing API latency.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <h3>Web Developer</h3>
+          <span class="date">2019 – 2023</span>
+        </div>
+        <p class="company">Dream Work System Solution Limited</p>
+        <ul class="bullets">
+          <li>Developed and maintained internal web systems, growing from UI development into full-stack backend logic.</li>
+          <li>Collaborated on the deployment of scalable applications and cloud integrations.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-label="Selected projects">
+      <h2>Selected Projects</h2>
+      <div class="proj">
+        <strong>Pnuel Real Estate Platform</strong> — Full-stack property investment platform supporting
+        property crowdfunding. (Node.js, Apollo GraphQL, Next.js)
+      </div>
+      <div class="proj">
+        <strong>KYC Insight Platform</strong> — Backend-driven system for document processing and real-time analytics.
+      </div>
+      <div class="proj">
+        <strong>Internship Portal</strong> — Workflow management system for mentors and mentees. (Next.js, Node.js)
+      </div>
+    </section>
+
+    <section aria-label="Education">
+      <h2>Education</h2>
+      <p class="edu-line"><strong>B.Sc. in Computer Science</strong> — Kogi State University, Anyigba (2019)</p>
+    </section>
+
+    <footer>References available on request.</footer>
+  </main>
+</body>
+</html>

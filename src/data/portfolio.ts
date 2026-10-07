@@ -675,3 +675,5 @@ export const DEPTH_LAYERS = [
   { layer: "Cloud infrastructure", detail: "Deploys · serverless · cache", tech: "AWS · S3 · Docker · Redis" },
   { layer: "Monitoring / maintenance", detail: "Logs · audits · iteration", tech: "CI/CD · Audit logs" },
 ];
+
+export const SKILLS = ["React", "TypeScript", "Node.js", ".NET", "ASP.NET Core", "PostgreSQL", "MongoDB", "Prisma", "EF Core", "GraphQL", "Apollo", "AWS", "S3", "Docker", "Redis", "Paystack", "SendGrid", "JWT · 2FA · RBAC"]
