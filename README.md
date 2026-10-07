@@ -1,6 +1,6 @@
-# Innocent Akuh -Full-Stack Software Developer Portfolio
+# Innocent Akuh -Full-Stack Software Engineer Portfolio
 
-Premium, production-quality portfolio positioning **Innocent Akuh** as a full-stack software developer:
+Premium, production-quality portfolio positioning **Innocent Akuh** as a full-stack software engineer:
 **React · TypeScript · Node.js · .NET · PostgreSQL · MongoDB**.
 
 > "I build complete digital products, from interface to backend."

@@ -7,6 +7,7 @@ import Ecosystems from "../sections/Ecosystems";
 import Depth from "../sections/Depth";
 import About from "../sections/About";
 import Workflow from "../sections/Workflow";
+import GlobeOrbit from "../sections/GlobeOrbit";
 import Contact from "../sections/Contact";
 
 export default function Home() {
@@ -35,6 +36,7 @@ export default function Home() {
       <Depth />
       <Capabilities />
       <Workflow />
+      <GlobeOrbit />
       <Contact />
     </>
   );

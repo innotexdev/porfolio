@@ -13,7 +13,7 @@ export default function About() {
           <Reveal delay={100}>
             <div className="mt-6 space-y-4 text-[15.5px] leading-relaxed" style={{ color: "var(--text-dim)" }}>
               <p>
-                I am a full-stack software developer who enjoys turning ideas and business requirements into reliable
+                I am a full-stack software engineer who enjoys turning ideas and business requirements into reliable
                 digital products. My work spans frontend engineering, backend development, databases, authentication,
                 integrations and deployment.
               </p>
@@ -46,7 +46,7 @@ export default function About() {
               </span>
               <div>
                 <p className="text-[16px] font-bold" style={{ color: "var(--text)" }}>Innocent Akuh</p>
-                <p className="text-[13px]" style={{ color: "var(--text-faint)" }}>Full-Stack Software Developer</p>
+                <p className="text-[13px]" style={{ color: "var(--text-faint)" }}>Full-Stack Software Engineer</p>
               </div>
             </div>
             <dl className="space-y-3 border-t pt-5 text-[13.5px]" style={{ borderColor: "var(--line)" }}>

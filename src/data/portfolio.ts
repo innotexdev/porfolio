@@ -12,14 +12,14 @@ import type {
 
 export const PROFILE = {
   name: "Innocent Akuh",
-  role: "Full-Stack Software Developer",
+  role: "Full-Stack Software Engineer",
   shortDescriptor: "Building reliable software products across the frontend and backend.",
   heroHeadlineA: "I build complete digital products,",
   heroHeadlineB: "from interface to backend.",
   heroSupport:
     "I design and build modern, reliable web applications across the frontend and backend -from intuitive React interfaces to secure APIs, business logic, databases and third-party integrations.",
   heroTech: ["React", "TypeScript", "Node.js", ".NET", "PostgreSQL", "MongoDB"],
-  email: "innotexdev@gmail.com",
+  email: "akuhinnocent2016@gmail.com",
   location: "Nigeria · Open to remote",
   availability: "Open to full-time roles & product collaborations",
 };
