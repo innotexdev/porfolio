@@ -403,7 +403,7 @@ export const CASE_STUDIES: Record<ProjectId, CaseStudy> = {
         "Registration, login, email verification, TOTP-based two-factor authentication, password reset and change flows, role-based authorization on every transition, secure document sharing and full audit trails.",
       ],
       list: [
-        "SUPER_ADMIN · ADMIN · LAWYER · CLIENT · BENEFICIARY · EXECUTOR",
+        "ADMIN · LAWYER · CLIENT · BENEFICIARY · EXECUTOR",
         "JWT sessions with HTTP-only cookies",
         "TOTP / 2FA, OTP and email verification",
         "Audit logging on sensitive actions",
@@ -446,7 +446,7 @@ export const CASE_STUDIES: Record<ProjectId, CaseStudy> = {
         "TeiWill demonstrates the ability to carry a complex, regulated-feeling product from data model to deployed experience: secure APIs, layered business logic, relational database design, role-aware frontend applications and production integrations -the breadth of a real software product rather than a demo.",
       ],
     },
-    roles: ["SUPER_ADMIN", "ADMIN", "LAWYER", "CLIENT", "BENEFICIARY", "EXECUTOR"],
+    roles: ["ADMIN", "LAWYER", "CLIENT", "BENEFICIARY", "EXECUTOR"],
   },
   teicraft: {
     projectId: "teicraft",
