@@ -189,36 +189,37 @@ export const ARCH_NODES: ArchNode[] = [
   },
 ];
 
+
 export const EXPERIENCE: ExperienceItem[] = [
   {
-    company: "VegaIT",
-    role: "Software / Frontend Engineering",
-    period: "Professional experience",
-    location: "Engineering team · Enterprise software",
+    company: "Deep Technology",
+    role: "Software Developer Intern",
+    period: "Internship",
+    location: "Web Application Development",
     summary:
-      "Contributing within VegaIT's engineering environment on enterprise software -with a focus on frontend delivery, codebase health and close collaboration with backend services.",
+      "Contributed to the development of an internship portal designed to streamline internship applications, candidate management, and recruitment workflows through a user-friendly web application.",
     bullets: [
-      "React and TypeScript development across enterprise web UI",
-      "Feature implementation, bug fixing and component development",
-      "Codebase maintenance across a large shared repository",
-      "Git workflows, code review and team collaboration",
-      "Integration with backend services and APIs",
-      "Working around .NET 8, ASP.NET Core and Entity Framework Core services",
+      "Developed and maintained responsive user interfaces for the internship portal",
+      "Implemented features for internship applications and candidate management",
+      "Integrated frontend components with backend services and REST APIs",
+      "Built reusable components using React and TypeScript",
+      "Debugged application issues and improved code quality and maintainability",
+      "Collaborated with team members on feature development, testing, and delivery",
     ],
     stack: [
       "React",
       "TypeScript",
-      ".NET 8",
-      "ASP.NET Core",
-      "Entity Framework Core",
-      "PostgreSQL",
-      "Valkey",
-      "AWS Cognito",
-      "AWS Lambda",
+      "JavaScript",
+      "REST APIs",
+      "HTML5",
+      "CSS3",
+      "Git",
     ],
-    repos: ["site_selection_fe", "usermanagment_fe"],
+    repos: [],
   },
 ];
+
+
 
 export const PROJECTS: Project[] = [
   {
